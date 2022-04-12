@@ -17,17 +17,22 @@ public class SwapNumbers {
         System.out.println("Num1 = " + num1);
         System.out.println("Num2 = " + num2);
 
-//        Some logic
+//        Some logic with extra variable
 
-        int temp = num1;
-        num1 = num2;
-        num2 = temp;
+//        int temp = num1;
+//        num1 = num2;
+//        num2 = temp;
+
+        // logic without extra variable
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
 
 
         System.out.println("The numbers after swapping : ");
         System.out.println("Num1 = " + num1);
         System.out.println("Num2 = " + num2);
-        System.out.println("Temp = " + temp);
+//        System.out.println("Temp = " + temp);
 
     }
 
