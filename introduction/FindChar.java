@@ -18,6 +18,11 @@ public class FindChar {
         } else {
             System.out.println("You entered a special symbol");
         }
+
+//        char charNum = '0';
+//        int num = charNum - '0';
+//        System.out.println(num);
+
     }
 
 }

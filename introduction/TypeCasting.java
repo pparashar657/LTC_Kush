@@ -14,9 +14,9 @@ public class TypeCasting {
         int ch = 'A'; // implicit casting
         System.out.println(ch);
 
-        char ch2 = 97;
+        int ch2 = 97;
 
-        System.out.println(ch2);
+        System.out.println((char) ch2);
 
 
 
