@@ -13,6 +13,11 @@ public class TempConv {
         System.out.println("Enter the temperature: ");
         float temp = sc.nextFloat();
 
+        printConvertedTemp(unit, temp);
+
+    }
+
+    private static void printConvertedTemp(char unit, float temp) {
         float convertedTemp = 0;
 
         if(unit == 'C') {
@@ -24,7 +29,6 @@ public class TempConv {
         } else {
             System.out.println("Wrong unit!!!!!!");
         }
-
     }
 
 }

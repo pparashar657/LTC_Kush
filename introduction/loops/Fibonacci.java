@@ -7,8 +7,14 @@ public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number");
-        int n = sc.nextInt();
 
+        printNFibo(5);
+        printNFibo(10);
+        printNFibo(20);
+
+    }
+
+    private static void printNFibo(int n) {
         int first = 0;
         int second = 1;
         int third;
@@ -19,7 +25,6 @@ public class Fibonacci {
             first = second;
             second = third;
         }
-
     }
 
 }

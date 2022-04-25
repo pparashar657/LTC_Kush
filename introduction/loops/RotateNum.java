@@ -12,6 +12,12 @@ public class RotateNum {
         System.out.println("Enter value of K: ");
         int k = sc.nextInt();
 
+        int myAns = rotateByK(num, k);
+
+        System.out.println("After rotation num = " + myAns);
+    }
+
+    private static int rotateByK(int num, int k) {
         int totalDigits = 0;
 
         int temp = num;
@@ -26,7 +32,7 @@ public class RotateNum {
 
         int ans = (int)(rem * Math.pow(10, totalDigits-k) + qu);
 
-        System.out.println("After rotation num = " + ans);
+        return ans;
     }
 
 }
