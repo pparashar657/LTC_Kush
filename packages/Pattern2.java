@@ -10,7 +10,7 @@ public class Pattern2 {
         pattern2(n);
     }
 
-    private static void pattern2(int n) {
+    public static void pattern2(int n) {
 
         for(int rowNo = 1; rowNo<= n; rowNo++) {
             for(int colNo = 1; colNo <= rowNo; colNo++) {
